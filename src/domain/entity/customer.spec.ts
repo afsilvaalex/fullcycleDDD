@@ -43,6 +43,7 @@ describe("Customer unit tests", () => {
         //Assert
         expect(customer.isActive()).toBe(true);
 
+        
     }); 
 
     it("should throw error when activate customer and address is undefined", () => { 
